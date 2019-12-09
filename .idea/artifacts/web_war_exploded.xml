@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Labo01/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Labo01" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="jackson-annotations-2.7.0" />
+          <element id="library" level="project" name="jackson-core-2.7.4" />
+          <element id="library" level="project" name="jackson-databind-2.7.4" />
+          <element id="library" level="project" name="jxl-2.6.12(1)(1)" />
+          <element id="library" level="project" name="javax.websocket-api-1.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
